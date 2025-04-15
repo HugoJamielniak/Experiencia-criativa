@@ -1,0 +1,97 @@
+int xp = 300, yp = 200;
+int raio = 75;
+color cor1 = #000000;
+size(1600,400);
+background(255,255,0);
+
+//carro 1
+strokeWeight(4);
+rect(100, 100, 400, 150, 28);
+//rodas
+circle(200, 250, 75);
+circle(400, 250, 75);
+//escapamento
+strokeWeight(4);
+rect(500, 225, 30, 10);
+//janelas
+strokeWeight(4);
+rect(200, 100, 75, 50, 28);
+strokeWeight(4);
+rect(400, 100, 75, 50, 28);
+strokeWeight(4);
+rect(300, 100, 75, 50, 28);
+//janela motorista
+stroke(cor1);
+line(150, 100, 150, 150);
+stroke(cor1);
+line(100, 150, 150, 150);
+//cabeça
+circle(240, 125, 30);
+circle(440, 125, 30);
+circle(340, 125, 30);
+circle(125, 125, 30);
+
+
+
+
+
+//carro2
+//carro
+strokeWeight(4);
+rect(600, 100, 400, 150, 28);
+//rodas
+circle(700, 250, 75);
+circle(900, 250, 75);
+//escapamento
+strokeWeight(4);
+rect(1000, 225, 30, 10);
+//janelas
+strokeWeight(4);
+rect(700, 100, 75, 50, 28);
+strokeWeight(4);
+rect(900, 100, 75, 50, 28);
+strokeWeight(4);
+rect(800, 100, 75, 50, 28);
+//janela motorista
+stroke(cor1);
+line(650, 100, 650, 150);
+stroke(cor1);
+line(600, 150, 650, 150);
+//cabeça
+circle(740, 125, 30);
+circle(940, 125, 30);
+circle(840, 125, 30);
+circle(625, 125, 30);
+
+
+//carro3
+//carro
+strokeWeight(4);
+rect(1150, 100, 400, 150, 28);
+//rodas
+circle(1250, 250, 75);
+circle(1450, 250, 75);
+//escapamento
+strokeWeight(4);
+rect(1550, 225, 30, 10);
+//janelas
+strokeWeight(4);
+rect(1250, 100, 75, 50, 28);
+strokeWeight(4);
+rect(1450, 100, 75, 50, 28);
+strokeWeight(4);
+rect(1350, 100, 75, 50, 28);
+//janela motorista
+stroke(cor1);
+line(1200, 100, 1200, 150);
+stroke(cor1);
+line(1150, 150, 1200, 150);
+//cabeça
+circle(1290, 125, 30);
+circle(1490, 125, 30);
+circle(1390, 125, 30);
+circle(1175, 125, 30);
+
+
+
+
